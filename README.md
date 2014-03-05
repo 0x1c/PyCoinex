@@ -1,14 +1,13 @@
-PyCoinex
-========
-@0x1c
+# PyCoinex
 
-This is a partially implemented Coinex [1] API in Python. I just wanted 
+This is a partially implemented Coinex [http://coinex.pw/][1] API in Python. I just wanted 
 open trades, balances, and total value in BTC in one easy place. Add your
 Coinex API key and private key to example.py and run as below. The CoinEx
-developer has a more full API written in CoffeeScript [2], which is also
+developer has a more full API written in CoffeeScript [2][https://gist.github.com/erundook/83772222], which is also
 useful if you want to extend this in any way. Feel free to send me pull
 requests, otherwise do with this whatever thou wily^Ht.
 
+```
 PyCoinex$ python example.py 
 [-] Getting trade pairs
 [-] Getting currencies
@@ -44,7 +43,6 @@ SMC	0.0000	0.00001761	0.00000000
 ===================================
 Total value in BTC: 0.3112
 ===================================
+```
 
-[1] http://coinex.pw/
-[2] https://gist.github.com/erundook/8377222
 
