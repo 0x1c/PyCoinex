@@ -1,9 +1,9 @@
 # PyCoinex
 
-This is a partially implemented Coinex [http://coinex.pw/][1] API in Python. I just wanted 
+This is a partially implemented Coinex [http://coinex.pw/] API in Python. I just wanted 
 open trades, balances, and total value in BTC in one easy place. Add your
 Coinex API key and private key to example.py and run as below. The CoinEx
-developer has a more full API written in CoffeeScript [2][https://gist.github.com/erundook/83772222], which is also
+developer has a more full API written in CoffeeScript [https://gist.github.com/erundook/83772222], which is also
 useful if you want to extend this in any way. Feel free to send me pull
 requests, otherwise do with this whatever thou wily^Ht.
 
